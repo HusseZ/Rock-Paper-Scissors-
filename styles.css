@@ -1,0 +1,48 @@
+body {
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.main-header {
+    font-weight: bold;
+    align-self: center;
+    font-size: 24px;
+
+}
+
+
+.images-container img {
+    align-self: center;
+    height: 150px; 
+    width: 150px; 
+    border: 5px bold blue; 
+    border-radius: 7px; 
+    gap: 16px; 
+}
+
+
+.options-container ul { 
+    display: flex;
+    justify-content: center;
+    font-size: 24px; 
+    font-family: 'Courier New', Courier, monospace;
+    gap: 200px; 
+    list-style: none;
+
+}
+
+.click {
+align-self: center;
+font-size: 20px;
+width: 90px;
+
+}
+
+
+
+
+
+.footer-container {
+    background: green; 
+}
