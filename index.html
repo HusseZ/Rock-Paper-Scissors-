@@ -5,44 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="rock-paper-scissors"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 <div class="main-header"><h1><p>Rock Paper Scissors</p></h1></div>
 <div class="images-container">
-    <img class="images" src="images/rock.jpeg">
-    <img class="images" src="images/paper.png">
-    <img class="images" src="images/scissors.png">
+    <img id="rock" src="images/rock.jpeg">
+    <img id="paper" src="images/paper.png">
+    <img id="scissors" src="images/scissors.png">
 </div>
 
 <div class="options-container">
     <ul>
-        <li class="option-1">Rock</li>
-        <li class="option-2">Paper</li>
-        <li class="option-3">Scissors</li>
+        <li id="option-1">Rock</li>
+        <li id="option-2">Paper</li>
+        <li id="option-3">Scissors</li>
     </ul>
 </div>
 
 <div class="button-container">
-    <button class="click">Click To Go</button>
+    <button class="click">Play Again</button>
 </div>
 
-<div class="round-header">Round -</div>
+<div class="round-header"><h3>Round -</h3></div>
+<div class="round-number">0</div>
 
 <div class="user-container">
-    <img class="players" src="images/computer-user.png">
-    <img class="players" src="images/player-user.png">   
+    <img class="computer-avatar" src="images/computer-user.png">
+    <img class="user-avatar" src="images/player-user.png">   
 
 </div>
 
 <div class="computer-score-container">
-    <div class="computer-user">Computer Score:</div>
+    <h3>Computer Score</h3>
+    <div class="computer-score">0</div>
 </div>
 
 <div class="player-score-container">
-    <div class="player-user">Player Score:</div>
+    <h3>Player Score</h3>
+    <div class="player-score">0</div>
 </div>
 
 

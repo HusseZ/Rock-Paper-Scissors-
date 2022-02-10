@@ -1,36 +1,41 @@
 body {
     display: flex; 
     flex-wrap: wrap;
-    background: rgba(255, 213, 136, 0.493); 
-
+    background: rgba(0, 0, 0, 0.986); 
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
 .main-header {
     display: flex;
     font-weight: bold;
+    color: gold; 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    width: 1600px;
+    width: 1400px;
     height: 100px;
     }
 
 .images-container {
     display: flex;
-    width: 1600px;
+    width: 1400px;
     justify-content: center; 
     margin-top: 48px;;
     gap: 28px; 
   
+    
 
 }
 
-.images-container .images {
+.images-container img{
     height: 250px; 
     width: 250px; 
-    border: 3px solid grey; 
+    border: 4px solid white; 
     border-radius: 8px;
     
        
@@ -38,8 +43,9 @@ body {
 
 .options-container {
     display: flex; 
-    width: 1600px;
+    width: 1400px;
     justify-content: center;
+    
     
 }
 
@@ -47,6 +53,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-size: 24px; 
+    color: white; 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     list-style: none;
     width: 1100px; 
@@ -71,6 +78,7 @@ body {
 
 .round-header { 
     font-size: 32px; 
+    color: white; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     position: relative;
@@ -85,15 +93,16 @@ body {
     position: relative;
     left: 20px; 
     
+    
 }
 
-.user-container .players { 
+.user-container img { 
     width: 150px; 
     height: 150px; 
     margin-top: 32px; 
     border-radius: 7px; 
     border: 2px solid lightcyan; 
-
+  
 
 }
 
@@ -101,31 +110,63 @@ body {
 .computer-score-container {
     width: 600px; 
    
+}
+
+.computer-score-container h3{
+    font-size: 24px; 
+    position: relative;
+    left: 320px;
+    color: red; 
+    width: 250px; 
+   
 
 }
 
-.computer-user {
-    font-size: 18px; 
+.computer-score {
+    font-size: 22px; 
     font-weight: bold; 
-    margin-top: 28px; 
+    margin-top: 8px; 
+    color: red; 
+    background: white; 
+    display: flex; 
+    justify-content: center;
+    border-radius: 7px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     position: relative; 
-    left: 220px;
+    width: 32px;
+    left: 420px;
+    
 }
+
 
 .player-score-container {
     position: relative; 
     width: 600px; 
-    left: 62px; 
+    
 }
 
-.player-user {
-    font-size: 18px; 
-    font-weight: bold; 
-    margin-top: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.player-score-container h3 {
     position: relative; 
-    left: 80px; 
+    font-size: 24px;
+    left: 230px;
+    color: green; 
+
+}
+
+
+.player-score-container .player-score {
+    font-size: 22px; 
+    font-weight: bold; 
+    color: green; 
+    background: white; 
+    display: flex;
+    border-radius: 7px; 
+    justify-content: center;
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;  
+    width: 32px;
+    left: 300px; 
 }
 
 .footer-container {
@@ -133,7 +174,7 @@ body {
     padding: 18px; 
     margin-top: 170px;
     width: 1420px; 
-
+   
 }
 
 .footer-container .credits {
