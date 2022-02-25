@@ -1,10 +1,9 @@
 body {
     display: flex; 
     flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.986); 
+    background: rgba(50, 108, 156, 0.89); 
     margin: 0; 
     padding: 0;
-    overflow-x: hidden;
     overflow-y: scroll;
 }
 
@@ -73,6 +72,7 @@ body {
     position: relative; 
     left: 600px; 
     margin-top: 24px; 
+    border-radius: 7px;
 
 }
 
@@ -116,7 +116,7 @@ body {
     font-size: 24px; 
     position: relative;
     left: 320px;
-    color: red; 
+    color: white; 
     width: 250px; 
    
 
@@ -125,8 +125,7 @@ body {
 .computer-score {
     font-size: 22px; 
     font-weight: bold; 
-    margin-top: 8px; 
-    color: red; 
+    margin-top: 8px;  
     background: white; 
     display: flex; 
     justify-content: center;
@@ -149,15 +148,14 @@ body {
     position: relative; 
     font-size: 24px;
     left: 230px;
-    color: green; 
+    color: white; 
 
 }
 
 
 .player-score-container .player-score {
     font-size: 22px; 
-    font-weight: bold; 
-    color: green; 
+    font-weight: bold;  
     background: white; 
     display: flex;
     border-radius: 7px; 
