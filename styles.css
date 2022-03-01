@@ -127,8 +127,7 @@ body {
 }
 
 .score-name-container { 
-    display: flex;
-    border: green 2px solid; 
+    display: flex; 
     width: 100%; 
     justify-content: center;
     gap: 300px;
